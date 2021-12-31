@@ -34,3 +34,27 @@ bash setup.sh
 
 [Happy Hacking Keyboard](https://www.pfu.fujitsu.com/hhkeyboard/macdownload.html)
 
+## Tampermonkey
+
+[AtCoder Easy Test v2](https://greasyfork.org/ja/scripts/433152-atcoder-easy-test-v2)
+
+[ac-predictor](https://greasyfork.org/ja/scripts/369954-ac-predictor)
+
+[AtCoder Difficulty Display](https://greasyfork.org/ja/scripts/397185-atcoder-difficulty-display)
+
+[AtCoderPerformanceColorizer](https://greasyfork.org/ja/scripts/371693-atcoderperformancecolorizer)
+
+[AtCoder Editorial for Typical90](https://greasyfork.org/ja/scripts/427584-atcoder-editorial-for-typical90)
+
+[atcoder-typical90-sort](https://greasyfork.org/ja/scripts/428698-atcoder-typical90-sort)
+
+[Time Limit Emphasizer](https://greasyfork.org/ja/scripts/406381-time-limit-emphasizer)
+
+[AtCoder Difficulty Colorizer for Typical 90](https://greasyfork.org/ja/scripts/425463-atcoder-difficulty-colorizer-for-typical-90)
+
+[HighlightAtCoderContestNot2100](https://greasyfork.org/en/scripts/426911-highlightatcodercontestnot2100)
+
+[解説ぜんぶ見る](https://greasyfork.org/ja/scripts/416554-view-all-editorials)
+
+[ANTI-ADBLOCK KILLER](https://reek.github.io/anti-adblock-killer)
+
