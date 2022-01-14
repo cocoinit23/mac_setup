@@ -58,3 +58,5 @@ bash setup.sh
 
 [ANTI-ADBLOCK KILLER](https://reek.github.io/anti-adblock-killer)
 
+[AtCoderStandingsAnalysis](https://greasyfork.org/ja/scripts/398439-atcoderstandingsanalysis)
+
