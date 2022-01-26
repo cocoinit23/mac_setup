@@ -12,6 +12,7 @@ sudo softwareupdate --install-rosetta
 ln -s $HOME/Library/Mobile\ Documents/com~apple~CloudDocs/ $HOME/iCloud
 
 # commands
+brew install coreutils
 brew install watch
 brew install wget
 brew install tmux
@@ -21,7 +22,6 @@ brew tap Homebrew/bundle
 brew install --cask adobe-creative-cloud
 brew install --cask microsoft-office
 brew install --cask microsoft-teams
-brew install --cask pycharm
 brew install --cask google-chrome
 brew install --cask google-drive
 brew install --cask google-japanese-ime
@@ -44,6 +44,7 @@ brew install --cask mp3gain-express
 brew install --cask endnote
 brew install --cask cheatsheet
 brew install --cask balenaetcher
+# brew install --cask pycharm
 brew install --cask jetbrains-toolbox
 
 # app store
