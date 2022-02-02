@@ -44,8 +44,9 @@ brew install --cask mp3gain-express
 brew install --cask endnote
 brew install --cask cheatsheet
 brew install --cask balenaetcher
-# brew install --cask pycharm
+brew install --cask pycharm
 brew install --cask jetbrains-toolbox
+brew install --cask android-file-transfer
 
 # app store
 brew install mas
