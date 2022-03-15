@@ -8,8 +8,9 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 xcode-select --install
 sudo softwareupdate --install-rosetta
 
-# symbolic link of iCloud
+# iCloud
 ln -s $HOME/Library/Mobile\ Documents/com~apple~CloudDocs/ $HOME/iCloud
+echo "alias icloud='cd $HOME/Library/Mobile\ Documents/com\~apple\~CloudDocs'" >> $HOME/.zprofile
 
 # commands
 brew install coreutils
@@ -62,6 +63,7 @@ mas install 803453959  # Slack
 mas install 425424353  # The Unarchiver
 mas install 1384080005 # Tweetbot
 mas install 882655968  # ZIPANG
+mas install 1348617240 # FirstSeed Calendar
 
 # python
 brew install --cask miniforge
@@ -90,3 +92,6 @@ conda install -c pytorch pytorch torchvision -y
 # after python installed
 brew install --cask google-cloud-sdk
 brew install graphviz
+
+# test Tensorflow
+python tf_test.py
