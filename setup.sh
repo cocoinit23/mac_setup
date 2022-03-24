@@ -10,7 +10,7 @@ sudo softwareupdate --install-rosetta
 
 # iCloud
 ln -s $HOME/Library/Mobile\ Documents/com~apple~CloudDocs/ $HOME/iCloud
-echo "alias icloud='cd $HOME/Library/Mobile\ Documents/com\~apple\~CloudDocs'" >> $HOME/.zprofile
+echo "alias icloud='cd $HOME/Library/Mobile\ Documents/com\~apple\~CloudDocs'" >>$HOME/.zprofile
 
 # commands
 brew install coreutils
@@ -48,6 +48,7 @@ brew install --cask balenaetcher
 brew install --cask pycharm
 brew install --cask jetbrains-toolbox
 brew install --cask android-file-transfer
+brew install --cask docker
 
 # app store
 brew install mas
