@@ -79,7 +79,7 @@ echo 'conda activate py38' >>$HOME/.zshrc
 
 # base packages
 conda install numpy pandas scipy scikit-learn lightgbm xgboost jupyter matplotlib seaborn opencv -y
-conda install conda install joblib umap-learn tqdm icecream pandarallel pillow -y
+conda install joblib umap-learn tqdm icecream pandarallel pillow -y
 pip install optuna iterative-stratification
 
 # tensorflow for apple silicon
@@ -90,6 +90,10 @@ pip install tensorflow-metal
 
 # pytorch
 conda install -c pytorch pytorch torchvision -y
+
+# hugging face
+conda install -c huggingface transformers -y
+conda install -c conda-forge sentence-transformers -y
 
 # after python installed
 brew install --cask google-cloud-sdk
