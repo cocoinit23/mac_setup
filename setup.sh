@@ -80,6 +80,7 @@ echo 'conda activate py38' >>$HOME/.zshrc
 # base packages
 conda install numpy pandas scipy scikit-learn lightgbm xgboost jupyter matplotlib seaborn opencv -y
 conda install joblib umap-learn tqdm icecream pandarallel pillow -y
+conda install django==3.2 -y
 pip install optuna iterative-stratification
 
 # tensorflow for apple silicon
