@@ -50,6 +50,7 @@ brew install --cask pycharm
 brew install --cask intellij-idea
 brew install --cask android-file-transfer
 brew install --cask docker
+brew install --cask obs
 
 # app store
 brew install mas
@@ -88,6 +89,7 @@ pip install optuna iterative-stratification
 conda install -c apple tensorflow-deps -y
 pip install tensorflow-macos
 pip install tensorflow-metal
+pip install tensorflow-addons
 
 # pytorch
 conda install -c pytorch pytorch torchvision -y
