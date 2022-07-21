@@ -51,6 +51,7 @@ brew install --cask intellij-idea
 brew install --cask android-file-transfer
 brew install --cask docker
 brew install --cask obs
+brew install --cask anki
 
 # app store
 brew install mas
@@ -90,12 +91,14 @@ conda install -c apple tensorflow-deps -y
 pip install tensorflow-macos
 pip install tensorflow-metal
 pip install tensorflow-addons
+pip install tensorflow-datasets
 
 # pytorch
-conda install -c pytorch pytorch torchvision -y
+# conda install -c pytorch pytorch torchvision -y
+pip install torch torchvision
 
 # hugging face
-conda install -c huggingface transformers -y
+conda install -c huggingface transformers datasets -y
 conda install -c conda-forge sentence-transformers -y
 
 # after python installed
