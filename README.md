@@ -22,6 +22,8 @@ bash setup.sh
 - twitter
 - line
 - jetbrains
+- anki
+- focus to-do
 
 #### licence
 

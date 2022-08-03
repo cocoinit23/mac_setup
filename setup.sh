@@ -57,7 +57,6 @@ brew install --cask anki
 brew install mas
 mas install 1333542190 # 1Password
 mas install 937984704  # Amphetamine
-mas install 425264550  # Disk Speed Test
 mas install 1444383602 # GoodNotes
 mas install 1319778037 # iStat Menus
 mas install 472226235  # LanScan
@@ -68,6 +67,7 @@ mas install 425424353  # The Unarchiver
 mas install 1384080005 # Tweetbot
 mas install 882655968  # ZIPANG
 mas install 1348617240 # FirstSeed Calendar
+mas install 1258530160 # Focus To-Do
 
 # python
 brew install --cask miniforge
