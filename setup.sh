@@ -52,6 +52,9 @@ brew install --cask android-file-transfer
 brew install --cask docker
 brew install --cask obs
 brew install --cask anki
+brew install postgresql
+brew install --cask pgadmin4
+brew install poetry
 
 # app store
 brew install mas
