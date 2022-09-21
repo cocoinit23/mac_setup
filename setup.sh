@@ -90,8 +90,8 @@ pip install optuna iterative-stratification
 
 # tensorflow for apple silicon
 # https://developer.apple.com/metal/tensorflow-plugin/
-conda install -c apple tensorflow-deps -y
-pip install tensorflow-macos
+conda install -c apple tensorflow-deps==2.10.0 -y
+pip install tensorflow-macos==2.10.0
 pip install tensorflow-metal
 pip install tensorflow-addons
 pip install tensorflow-datasets
