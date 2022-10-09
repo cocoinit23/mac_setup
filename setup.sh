@@ -82,13 +82,11 @@ conda create --name py38 python=3.8 -y
 conda activate py38
 echo 'conda activate py38' >>$HOME/.zshrc
 
-
 # tensorflow for apple silicon
 # https://developer.apple.com/metal/tensorflow-plugin/
 conda install -c apple tensorflow-deps==2.10.0 -y
 pip install tensorflow-macos==2.10.0
 pip install tensorflow-addons==0.18.0
-# pip install tensorflow-datasets
 pip install tensorflow-metal==0.6.0
 pip install keras-cv-attention-models==1.3.1
 
@@ -101,9 +99,9 @@ conda install -c huggingface transformers==4.22.1 datasets==2.5.2 -y
 conda install -c conda-forge sentence-transformers==2.2.2 -y
 
 # conda install numpy scipy pandas
-conda install scikit-learn lightgbm jupyter matplotlib seaborn opencv joblib tqdm icecream -y
-# conda install django==3.2 -y
-# pip install optuna iterative-stratification
+conda install kaggle scikit-learn lightgbm jupyter matplotlib seaborn opencv joblib tqdm icecream optuna==2.10.1 -y
+conda install django==3.2 -y
+pip install iterative-stratification==0.1.7
 
 # after python installed
 brew install --cask google-cloud-sdk
