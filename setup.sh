@@ -68,7 +68,7 @@ mas install 545519333  # Prime Video
 mas install 803453959  # Slack
 mas install 425424353  # The Unarchiver
 mas install 1384080005 # Tweetbot
-mas install 882655968  # ZIPANG
+# mas install 882655968  # ZIPANG
 mas install 1348617240 # FirstSeed Calendar
 mas install 1258530160 # Focus To-Do
 
@@ -106,6 +106,7 @@ pip install iterative-stratification==0.1.7
 # after python installed
 brew install --cask google-cloud-sdk
 brew install graphviz
+python -m nltk.downloader all
 
 # test Tensorflow
 python tf_test.py
