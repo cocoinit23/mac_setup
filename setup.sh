@@ -108,5 +108,8 @@ brew install --cask google-cloud-sdk
 brew install graphviz
 python -m nltk.downloader all
 
-# test Tensorflow
+# test tensorflow
 python tf_test.py
+
+# test pytorch
+python torch_test.py
