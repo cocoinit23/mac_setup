@@ -12,6 +12,17 @@ sudo softwareupdate --install-rosetta
 ln -s $HOME/Library/Mobile\ Documents/com~apple~CloudDocs/ $HOME/iCloud
 echo "alias icloud='cd $HOME/Library/Mobile\ Documents/com\~apple\~CloudDocs'" >>$HOME/.zprofile
 
+# display english name of home directories
+rm ~/Applications/.localized
+rm ~/Documents/.localized
+rm ~/Downloads/.localized
+rm ~/Desktop/.localized
+rm ~/Public/.localized
+rm ~/Pictures/.localized
+rm ~/Music/.localized
+rm ~/Movies/.localized
+rm ~/Library/.localized
+
 # commands
 brew install coreutils
 brew install watch
