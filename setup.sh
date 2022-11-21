@@ -110,7 +110,7 @@ conda install -c huggingface transformers==4.22.1 datasets==2.5.2 -y
 conda install -c conda-forge sentence-transformers==2.2.2 -y
 
 # conda install numpy scipy pandas
-conda install kaggle scikit-learn lightgbm jupyter matplotlib seaborn opencv joblib tqdm icecream optuna==2.10.1 -y
+conda install kaggle scikit-learn lightgbm jupyter matplotlib seaborn opencv joblib tqdm icecream optuna==2.10.1 dask -y
 conda install django==3.2 -y
 pip install iterative-stratification==0.1.7
 
