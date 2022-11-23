@@ -66,6 +66,7 @@ brew install --cask anki
 brew install postgresql
 brew install --cask pgadmin4
 brew install poetry
+brew install --cask slack
 
 # app store
 brew install mas
@@ -76,7 +77,7 @@ mas install 1319778037 # iStat Menus
 mas install 472226235  # LanScan
 mas install 539883307  # LINE
 mas install 545519333  # Prime Video
-mas install 803453959  # Slack
+# mas install 803453959  # Slack
 mas install 425424353  # The Unarchiver
 mas install 1384080005 # Tweetbot
 # mas install 882655968  # ZIPANG
