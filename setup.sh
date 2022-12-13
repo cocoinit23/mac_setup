@@ -40,7 +40,7 @@ brew install --cask google-japanese-ime
 brew install --cask iterm2
 brew install --cask deepl
 brew install --cask onyx
-brew install --cask bartender
+# brew install --cask bartender
 brew install --cask bettertouchtool
 brew install --cask alfred
 brew install --cask appcleaner
@@ -57,8 +57,8 @@ brew install --cask endnote
 brew install --cask cheatsheet
 brew install --cask balenaetcher
 brew install --cask jetbrains-toolbox
-brew install --cask pycharm
-brew install --cask intellij-idea
+# brew install --cask pycharm
+# brew install --cask intellij-idea
 brew install --cask android-file-transfer
 brew install --cask docker
 brew install --cask obs
@@ -73,7 +73,7 @@ brew install mas
 mas install 1333542190 # 1Password
 mas install 937984704  # Amphetamine
 mas install 1444383602 # GoodNotes
-mas install 1319778037 # iStat Menus
+# mas install 1319778037 # iStat Menus
 mas install 472226235  # LanScan
 mas install 539883307  # LINE
 mas install 545519333  # Prime Video
@@ -97,10 +97,7 @@ echo 'conda activate py38' >>$HOME/.zshrc
 # tensorflow for apple silicon
 # https://developer.apple.com/metal/tensorflow-plugin/
 conda install -c apple tensorflow-deps==2.10.0 -y
-pip install tensorflow-macos==2.10.0
-pip install tensorflow-addons==0.18.0
-pip install tensorflow-metal==0.6.0
-pip install keras-cv-attention-models==1.3.1
+pip install tensorflow-macos==2.10.0 tensorflow-addons==0.18.0 tensorflow-metal==0.6.0 keras-cv-attention-models==1.3.1
 
 # pytorch
 conda install -c pytorch pytorch torchvision -y
