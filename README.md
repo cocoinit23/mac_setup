@@ -24,17 +24,29 @@ bash setup.sh
 - jetbrains
 - anki
 - focus to-do
+- endnote
 
 #### licence
 
 - bartender
 - better touch tool
 
-## manual install
+## Manual install
 
 [Scansnap](https://www.pfu.fujitsu.com/imaging/ssacc/ja/start_download_21_GA.html)
 
 [Happy Hacking Keyboard](https://www.pfu.fujitsu.com/hhkeyboard/macdownload.html)
+
+## IntelliJ IDEA Plugins
+
+[Inspection Lens](https://plugins.jetbrains.com/plugin/19678-inspection-lens)
+
+[Rainbow Brackets](https://plugins.jetbrains.com/plugin/10080-rainbow-brackets)
+
+[Key Promoter X](https://plugins.jetbrains.com/plugin/9792-key-promoter-x)
+
+[Doc-Aware Search Everywhere](https://plugins.jetbrains.com/plugin/14308-doc-aware-search-everywhere)
+
 
 ## Tampermonkey
 

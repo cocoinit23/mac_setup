@@ -9,8 +9,8 @@ xcode-select --install
 sudo softwareupdate --install-rosetta
 
 # iCloud
-ln -s $HOME/Library/Mobile\ Documents/com~apple~CloudDocs/ $HOME/iCloud
-echo "alias icloud='cd $HOME/Library/Mobile\ Documents/com\~apple\~CloudDocs'" >>$HOME/.zprofile
+ln -s "$HOME"/Library/Mobile\ Documents/com~apple~CloudDocs/ "$HOME"/iCloud
+echo "alias icloud='cd $HOME/Library/Mobile\ Documents/com\~apple\~CloudDocs'" >>"$HOME"/.zprofile
 
 # display english name of home directories
 rm ~/Applications/.localized
@@ -28,6 +28,13 @@ brew install coreutils
 brew install watch
 brew install wget
 brew install tmux
+
+# programming
+brew install --cask docker
+brew install postgresql
+brew install --cask pgadmin4
+brew install poetry
+brew install node
 
 # applications
 brew tap Homebrew/bundle
@@ -60,12 +67,8 @@ brew install --cask jetbrains-toolbox
 # brew install --cask pycharm
 # brew install --cask intellij-idea
 brew install --cask android-file-transfer
-brew install --cask docker
 brew install --cask obs
 brew install --cask anki
-brew install postgresql
-brew install --cask pgadmin4
-brew install poetry
 brew install --cask slack
 
 # app store
@@ -87,12 +90,12 @@ mas install 1258530160 # Focus To-Do
 # python
 brew install --cask miniforge
 conda init
-echo 'source /opt/homebrew/Caskroom/miniforge/base/etc/profile.d/conda.sh' >>$HOME/.zprofile
-source $HOME/.zprofile
+echo 'source /opt/homebrew/Caskroom/miniforge/base/etc/profile.d/conda.sh' >>"$HOME"/.zprofile
+source "$HOME"/.zprofile
 
 conda create --name py38 python=3.8 -y
 conda activate py38
-echo 'conda activate py38' >>$HOME/.zshrc
+echo 'conda activate py38' >>"$HOME"/.zshrc
 
 # tensorflow for apple silicon
 # https://developer.apple.com/metal/tensorflow-plugin/
@@ -104,8 +107,8 @@ conda install -c pytorch pytorch torchvision -y
 # pip install torch torchvision
 
 # hugging face
-conda install -c huggingface transformers==4.22.1 datasets==2.5.2 -y
-conda install -c conda-forge sentence-transformers==2.2.2 -y
+conda install -c huggingface transformers datasets -y
+conda install -c conda-forge sentence-transformers -y
 
 # conda install numpy scipy pandas
 conda install kaggle scikit-learn lightgbm jupyter matplotlib seaborn opencv joblib tqdm icecream optuna==2.10.1 dask -y
