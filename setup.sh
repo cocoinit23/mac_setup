@@ -70,6 +70,7 @@ brew install --cask android-file-transfer
 brew install --cask obs
 brew install --cask anki
 brew install --cask slack
+brew install --cask android-studio
 
 # app store
 brew install mas
