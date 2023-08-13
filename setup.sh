@@ -30,11 +30,11 @@ brew install wget
 brew install tmux
 
 # programming
-brew install --cask docker
-brew install postgresql
-brew install --cask pgadmin4
-brew install poetry
-brew install node
+# brew install --cask docker
+# brew install postgresql
+# brew install --cask pgadmin4
+# brew install poetry
+# brew install node
 
 # applications
 brew tap Homebrew/bundle
@@ -54,23 +54,22 @@ brew install --cask appcleaner
 brew install --cask firefox
 brew install --cask visual-studio-code
 brew install --cask vlc
-brew install --cask webex-meetings
+# brew install --cask webex-meetings
 brew install --cask skype
 brew install --cask zoom
 brew install --cask r
 brew install --cask rstudio
 brew install --cask mp3gain-express
-brew install --cask endnote
+# brew install --cask endnote
 brew install --cask cheatsheet
 brew install --cask balenaetcher
 brew install --cask jetbrains-toolbox
 # brew install --cask pycharm
 # brew install --cask intellij-idea
 brew install --cask android-file-transfer
-brew install --cask obs
+# brew install --cask obs
 brew install --cask anki
 brew install --cask slack
-brew install --cask android-studio
 
 # app store
 brew install mas
@@ -83,7 +82,7 @@ mas install 539883307  # LINE
 mas install 545519333  # Prime Video
 # mas install 803453959  # Slack
 mas install 425424353  # The Unarchiver
-mas install 1384080005 # Tweetbot
+# mas install 1384080005 # Tweetbot
 # mas install 882655968  # ZIPANG
 mas install 1348617240 # FirstSeed Calendar
 mas install 1258530160 # Focus To-Do
