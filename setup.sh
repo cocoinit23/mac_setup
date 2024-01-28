@@ -38,9 +38,9 @@ brew install tmux
 
 # applications
 brew tap Homebrew/bundle
-brew install --cask adobe-creative-cloud
-brew install --cask microsoft-office
-brew install --cask microsoft-teams
+# brew install --cask adobe-creative-cloud
+# brew install --cask microsoft-office
+# brew install --cask microsoft-teams
 brew install --cask google-chrome
 brew install --cask google-drive
 brew install --cask google-japanese-ime
@@ -51,15 +51,15 @@ brew install --cask onyx
 brew install --cask bettertouchtool
 brew install --cask alfred
 brew install --cask appcleaner
-brew install --cask firefox
+# brew install --cask firefox
 brew install --cask visual-studio-code
-brew install --cask vlc
+# brew install --cask vlc
 # brew install --cask webex-meetings
 brew install --cask skype
-brew install --cask zoom
+# brew install --cask zoom
 brew install --cask r
 brew install --cask rstudio
-brew install --cask mp3gain-express
+# brew install --cask mp3gain-express
 # brew install --cask endnote
 brew install --cask cheatsheet
 brew install --cask balenaetcher
@@ -100,7 +100,7 @@ echo 'conda activate py38' >>"$HOME"/.zshrc
 # tensorflow for apple silicon
 # https://developer.apple.com/metal/tensorflow-plugin/
 conda install -c apple tensorflow-deps==2.10.0 -y
-pip install tensorflow-macos==2.10.0 tensorflow-addons==0.18.0 tensorflow-metal==0.6.0 keras-cv-attention-models==1.3.1
+pip install tensorflow-macos==2.10.0 tensorflow-addons==0.18.0 tensorflow-metal==0.6.0
 
 # pytorch
 conda install -c pytorch pytorch torchvision -y
@@ -111,7 +111,7 @@ conda install -c huggingface transformers datasets -y
 conda install -c conda-forge sentence-transformers -y
 
 # conda install numpy scipy pandas
-conda install kaggle scikit-learn lightgbm jupyter matplotlib seaborn opencv joblib tqdm icecream optuna==2.10.1 dask -y
+conda install kaggle scikit-learn lightgbm jupyter matplotlib seaborn opencv joblib tqdm icecream optuna==2.10.1 -y
 conda install django==3.2 -y
 pip install iterative-stratification==0.1.7
 
